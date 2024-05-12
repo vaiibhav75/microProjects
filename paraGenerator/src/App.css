@@ -1,0 +1,51 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 500px;
+  font-size: 1.2rem;
+}
+
+.generateButton {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.paragraphContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  text-align: justify;
+  width: 1000px;
+}
