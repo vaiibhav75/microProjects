@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .heading {
@@ -13,7 +12,6 @@
 .inputContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 15px;
   margin-bottom: 20px;
 }
@@ -34,14 +32,6 @@
   color: #fff;
   font-size: 1.2rem;
   cursor: pointer;
-}
-
-.paragraphContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
 }
 
 .paragraph {
