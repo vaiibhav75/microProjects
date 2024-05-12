@@ -4,8 +4,8 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-    const profile = {
-        backgroundImage: "https://picsum.photos/300",
+    const profile1 = {
+        backgroundImage: "https://picsum.photos/300/150",
         profileImage: "https://picsum.photos/250",
         name: "John Doe",
         place: "New York",
@@ -14,10 +14,21 @@ function App() {
         photos: 300000
     }
 
+    const profile2 = {
+        backgroundImage: "https://picsum.photos/300/150",
+        profileImage: "https://picsum.photos/250",
+        name: "Jane Doe",
+        place: "Los Angeles",
+        followers: 12120,
+        likes: 2200,
+        photos: 300000
+    }
+
   return (
-    <>
-        <ProfileCard profile={profile}></ProfileCard>
-    </>
+    <div className="mainContainer">
+        <ProfileCard profile={profile1}></ProfileCard>
+        <ProfileCard profile={profile2}></ProfileCard>
+    </div>
   )
 }
 
